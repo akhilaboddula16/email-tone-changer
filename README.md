@@ -22,7 +22,7 @@ The program:
   * Returns a clean and professional email
 
 
-**EXAMPLE**
+### **EXAMPLE**
 
 **Input Email**
        
@@ -37,7 +37,7 @@ The program:
   
     I hope you are doing well. Unfortunately, I will not be able to attend today’s meeting. Thank you for your understanding.
 
-**Tools Used**
+### **Tools Used**
 
   * Python – programming language
 
@@ -48,6 +48,35 @@ The program:
   * dotenv – keeps secret keys safe
 
   * LLM (AI model) – rewrites the email
+
+### **Project Structure**
+
+
+
+    mail_toner/
+    │
+    ├── .env                # API keys and environment variables
+    ├── main.py             # Entry point of the application
+    ├── toner.py            # Email tone rewriting logic
+    ├── langgraph.json      # LangGraph configuration
+    ├── pyproject.toml      # Project dependencies and settings
+    ├── uv.lock             # Dependency lock file
+    ├── .python-version     # Python version used
+    ├── README.md           # Project documentation
+
+
+### **Environment Setup (.env)**
+
+* Create a .env file inside the mail_toner folder:
+
+       MODEL_NAME=gemini-2.5-pro
+       MODEL_PROVIDER=google_vertexai
+       LANGCHAIN_TRACING_V2=true
+       LANGCHAIN_API_KEY=your_langsmith_api_key
+       LANGCHAIN_PROJECT=mail-toner
+
+
+
 
 
 
