@@ -22,3 +22,34 @@ The program:
   * Returns a clean and professional email
 
 
+**EXAMPLE**
+
+**Input Email**
+       
+         I can’t attend the meeting today.
+
+**Tone**
+        
+        Polite
+        
+**Output Email**
+
+  
+    I hope you are doing well. Unfortunately, I will not be able to attend today’s meeting. Thank you for your understanding.
+
+**Tools Used**
+
+  * Python – programming language
+
+  * LangChain – talks to AI models (LLMs)
+
+  * LangGraph – controls the flow of steps
+
+  * dotenv – keeps secret keys safe
+
+  * LLM (AI model) – rewrites the email
+
+
+
+
+
