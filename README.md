@@ -24,7 +24,7 @@ The program:
 
 ### **EXAMPLE**
 
-**Input Email**
+**Draft(Input Email)**
        
          I can’t attend the meeting today.
 
@@ -32,10 +32,14 @@ The program:
         
         Polite
         
-**Output Email**
+**Mail(Output Email)**
 
   
     I hope you are doing well. Unfortunately, I will not be able to attend today’s meeting. Thank you for your understanding.
+
+**Ex**
+* <img width="1918" height="982" alt="image" src="https://github.com/user-attachments/assets/db274cab-8e93-4b94-a0ef-7cd610a01e39" />
+
 
 ### **Tools Used**
 
@@ -74,6 +78,7 @@ The program:
        LANGCHAIN_TRACING_V2=true
        LANGCHAIN_API_KEY=your_langsmith_api_key
        LANGCHAIN_PROJECT=mail-toner
+
 
 
 
