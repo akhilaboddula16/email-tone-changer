@@ -9,15 +9,16 @@ It uses Generative AI with LangChain and LangGraph.
 
 You give:
 
-An email draft
+  * An email draft
 
-A tone (example: formal)
+  * A tone (example: formal)
 
 The program:
 
-Understands your email
+  * Understands your email
 
-Rewrites it in the given tone
+  * Rewrites it in the given tone
 
-Returns a clean and professional email
+  * Returns a clean and professional email
+
 
